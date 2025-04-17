@@ -52,7 +52,7 @@ function Nutrition() {
               <button 
                 key={category}
                 className={`px-4 py-2 rounded-md ${activeCategory === category 
-                  ? 'bg-primary-500 text-white' 
+                  ? 'bg-primary-500 text-black' 
                   : 'bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50'}`}
                 onClick={() => handleCategoryClick(category)}
               >

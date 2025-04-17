@@ -91,7 +91,7 @@ function Progress() {
               key={tab}
               className={`mr-3 mb-2 px-4 py-1 text-sm rounded-full ${
                 activeTab === tab
-                  ? 'bg-primary-500 text-white'
+                  ? 'bg-primary-500 text-black'
                   : 'bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50'
               }`}
               onClick={() => handleTabChange(tab)}

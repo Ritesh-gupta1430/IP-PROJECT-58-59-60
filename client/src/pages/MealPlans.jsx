@@ -24,7 +24,7 @@ function MealPlans() {
         {dietTypes.map(dietType => (
           <button 
             key={dietType}
-            className={`px-4 py-2 rounded-md mr-2 mb-2 ${activeDietType === dietType ? 'bg-primary-500 text-white' : 'bg-white text-neutral-700 hover:bg-neutral-100'}`}
+            className={`px-4 py-2 rounded-md mr-2 mb-2 ${activeDietType === dietType ? 'bg-primary-500 text-black' : 'bg-white text-neutral-700 hover:bg-neutral-100'}`}
             onClick={() => setActiveDietType(dietType)}
           >
             {dietType}
